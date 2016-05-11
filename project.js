@@ -1,5 +1,5 @@
-var gif, gif2, gif3, gif4, gif5, gif6, gif7, gif8, gif9, gif10, gif11, gif12, gif13, gif14, gif15, gif16;
-var img, img2, img3, img4, img5, img6, img7, img8;
+var gif, gif2, gif3, gif4, gif5, gif6, gif7, gif8, gif9, gif10, gif11, gif12, gif13, gif14, gif15, gif16, gif17, gif18, gif19, gif20;
+var img, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12;
 
 
 function setup() {
@@ -208,4 +208,72 @@ function mouseClicked() {
 				}
 			}
 	}
+}
+
+function mouseClicked() {
+	if (gif9.loaded()) {
+		function setup() {
+			createCanvas(800, 600);
+			gif10 = loadGif("gifs/loop.gif");
+		}
+		function draw() {
+			background(0);
+				if (gif10.loaded()) {
+				image(gif10, 0, 0);
+				}
+			}
+	}
+}
+
+function mouseClicked() {
+	if (gif10.loaded()) {
+		function setup() {
+			createCanvas(800, 600);
+			gif11 = loadGif("gifs/walk.gif");
+		}
+		function draw() {
+			background(0);
+				if (gif11.loaded()) {
+				image(gif11, 0, 0);
+				}
+			}
+	}
+}
+
+function mouseClicked() {
+	if (gif11.loaded()) {
+		function setup() {
+			createCanvas(800, 600);
+			img4 = loadImage("images/choose.jpg");
+		}
+		function draw() {
+			image(img4, 0, 0)
+			}
+	}
+}
+
+function keyPressed() {
+  if (keyCode === E) {
+		function setup() {
+			createCanvas(800, 600);
+			gif12 = loadGif("gifs/eat.gif");
+		}
+		function draw() {
+			background(0);
+				if (gif12.loaded()) {
+				image(gif12, 0, 0);
+				}
+			}
+  } else if (keyCode === C) {
+		function setup() {
+			createCanvas(800, 600);
+			gif13 = loadGif("gifs/class.gif");
+		}
+		function draw() {
+			background(0);
+				if (gif13.loaded()) {
+				image(gif13, 0, 0);
+				}
+			}
+  }
 }
