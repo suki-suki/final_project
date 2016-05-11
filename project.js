@@ -277,3 +277,56 @@ function keyPressed() {
 			}
   }
 }
+
+function mouseClicked() {
+  if (gif13.loaded()) {
+		function setup() {
+			createCanvas(800, 600);
+			gif14 = loadGif("gifs/walk.gif");
+		}
+		function draw() {
+			background(0);
+				if (gif14.loaded()) {
+				image(gif14, 0, 0);
+				}
+			}
+			function mouseClicked() {
+			  if (gif14.loaded()) {
+					function setup() {
+						createCanvas(800, 600);
+						gif12 = loadGif("gifs/eat.gif");
+					}
+					function draw() {
+						background(0);
+							if (gif12.loaded()) {
+							image(gif12, 0, 0);
+							}
+						}}
+					}
+		} else if (gif12.loaded()) {
+		function setup() {
+		createCanvas(800, 600);
+		gif14 = loadGif("gifs/walk.gif");
+	}
+	function draw() {
+		background(0);
+			if (gif14.loaded()) {
+			image(gif14, 0, 0);
+			}
+		}
+		 function mouseClicked() {
+			 if (gif14.loaded()) {
+				 function setup(){
+					 createCanvas(800, 600);
+					 gif13 = loadGif("gifs/class.gif");
+				 }
+				 function draw() {
+					 background(0);
+					 if (gif13.loaded()) {
+					 image(gif13, 0, 0);
+				 }
+			 }
+			 }
+		 }
+  }
+}
