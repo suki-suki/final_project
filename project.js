@@ -5,7 +5,8 @@ function preload() {
 	img = loadImage("images/wakeup.jpg");
 	img2 = loadImage("images/subway.jpg");
 	img3 = loadImage("images/choose.jpg");
-	// img4 = loadImage("images/home.jpg");
+	img4 = loadImage("images/home.jpg");
+	img5 = loadImage("images/bye.jpg")
 	gif = loadGif("gifs/title.gif");
 	gif2 = loadGif("gifs/wakeup.gif");
 	gif3 = loadGif("gifs/clothes.gif");
@@ -20,11 +21,9 @@ function preload() {
 	gif12 = loadGif("gifs/class.gif");
 	gif13 = loadGif("gifs/loop.gif");
 	gif14 = loadGif("gifs/hall.gif");
-	// gif15 = loadGif("gifs/vinyl.gif");
+	gif15 = loadGif("gifs/smoke.gif");
 	gif16 = loadGif("gifs/type.gif");
 	gif17 = loadGif("gifs/ace.gif");
-	// gif18 = loadGif("gifs/goodnight.gif");
-	// gif19 = loadGif("gifs/bye.gif");
 	// gif = loadGif("gifs/.gif");
 
 }
@@ -40,13 +39,31 @@ function draw() {
 		textFont("blackout");
 		fill("white");
 		text("loading...", 300, 350);
+		image(img, 0, 0);
+		if (gif2.loaded()) { image(gif2, 0, 0)};
 		if (gif.loaded()) { image(gif, 0, 0)};
-		if (gif2.loaded()) { image(gif2, 0, 0)}
 		}
 
 function keyPressed() {
-  if (keyCode = B && gif.playing()) {
-		image(gif2, 0, 0)
-  } else if (keyCode = B && gif2.playing()) {
-		image(img, 0, 0) }
+  if (keyCode === B && gif.playing()) {
+	image(gif2, 0, 0)} else if (keyCode === B && gif2.playing()) {
+		image(img, 0, 0) } else if (keyCode === C && gif3.loaded()) {
+			image(gif3, 0, 0) } else if (keyCode === M && gif4.loaded()) {
+				image(gif4, 0, 0) } else if (keyCode === B && gif3.playing()) {
+					image(gif4, 0, 0) } else if (keyCode === B && gif4.playing()) {
+						image(gif5, 0, 0) } else if (keyCode === B && gif5.playing()) {
+							image(img2, 0, 0) } else if (keyCode === R && gif6.loaded()) {
+								image(gif6, 0, 0) } else if (keyCode === S && gif7.loaded()) {
+									image(gif7, 0, 0) } else if (keyCode === B && gif6.playing()) {
+										image(gif8, 0, 0) } else if (keyCode === B && gif7.playing()) {
+											image(gif8, 0, 0) } else if (keyCode === B && gif8.playing()) {
+												image(gif9, 0, 0) } else if (keyCode === B && gif9.playing()) {
+													image(gif10, 0, 0) } else if (keyCode === B && gif10.playing()) {
+														image(img3, 0, 0) } else if ()
+													}
+												}
+										}
+									}
+								}
+							}
 }
