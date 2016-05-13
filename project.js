@@ -1,5 +1,5 @@
-var gif, gif2, gif3, gif4, gif5, gif6, gif7, gif8, gif9, gif10, gif11, gif12, gif13, gif14, gif15, gif16, gif17, gif18, gif19;
-var img, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12;
+var gif, gif2, gif3, gif4, gif5, gif6, gif7, gif8, gif9, gif10, gif11, gif12, gif13, gif14, gif15, gif16, gif17, gif18;
+var img, img2, img3, img4, img5;
 
 function preload() {
 	img = loadImage("images/wakeup.jpg");
@@ -21,11 +21,10 @@ function preload() {
 	gif12 = loadGif("gifs/class.gif");
 	gif13 = loadGif("gifs/loop.gif");
 	gif14 = loadGif("gifs/hall.gif");
-	gif15 = loadGif("gifs/smoke.gif");
+	gif15 = loadGif("gifs/ace.gif");
 	gif16 = loadGif("gifs/type.gif");
-	gif17 = loadGif("gifs/ace.gif");
-	// gif = loadGif("gifs/.gif");
-
+	gif17 = loadGif("gifs/tea.gif");
+	gif18 = loadGif("gifs/smoke.gif");
 }
 
 function setup() {
@@ -39,8 +38,6 @@ function draw() {
 		textFont("blackout");
 		fill("white");
 		text("loading...", 300, 350);
-		image(img, 0, 0);
-		if (gif2.loaded()) { image(gif2, 0, 0)};
 		if (gif.loaded()) { image(gif, 0, 0)};
 		}
 
@@ -57,13 +54,19 @@ function keyPressed() {
 									image(gif7, 0, 0) } else if (keyCode === B && gif6.playing()) {
 										image(gif8, 0, 0) } else if (keyCode === B && gif7.playing()) {
 											image(gif8, 0, 0) } else if (keyCode === B && gif8.playing()) {
-												image(gif9, 0, 0) } else if (keyCode === B && gif9.playing()) {
-													image(gif10, 0, 0) } else if (keyCode === B && gif10.playing()) {
-														image(img3, 0, 0) } else if ()
-													}
-												}
-										}
-									}
-								}
-							}
+									 image(gif9, 0, 0) } else if (keyCode === B && gif9.playing()) {
+								image(gif10, 0, 0) } else if (keyCode === B && gif10.playing()) {
+					image(img3, 0, 0) } else if (keyCode === E && gif11.loaded()) {
+		image(gif11, 0, 0) } else if (keyCode === G && gif12.loaded()) {
+image(gif12, 0, 0) } else if (keyCode === B && gif11.playing()) {
+		  	image(gif12, 0, 0) } else if (keyCode === B && gif12.playing()) {
+							image(gif13, 0, 0) } else if (keyCode === B && gif13.playing()) {
+									image(gif14, 0, 0) } else if (keyCode === B && gif14.playing()) {
+										 image(gif15, 0, 0) } else if (keyCode === B && gif15.playing()) {
+							  	image(img4, 0, 0) } else if (keyCode === W && gif16.loaded()) {
+					  	image(gif16, 0, 0) } else if (keyCode === T && gif17.loaded()) {
+			  	 image(gif17, 0, 0) } else if (keyCode === B && gif16.playing()) {
+		  	image(gif18, 0, 0) } else if (keyCode === B && gif17.playing()) {
+	  image(gif16, 0, 0) } else if (keyCode === B && gif18.playing()) {
+image(img5, 0, 0) } else if (keyCode === X && gif.loaded()) { image(gif, 0, 0) }
 }
