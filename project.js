@@ -40,7 +40,7 @@ function draw() {
 		text("loading...", 300, 350);
 		if (gif.loaded()) { image(gif, 0, 0)};
 		if (keyIsPressed) {
-		  if (keyCode === B && gif.loaded()) {
+		  if (keyCode === B && gif2.loaded()) {
 			image(gif2, 0, 0)} if (keyCode === B && gif2.loaded()) {
 				image(img, 0, 0) } if (keyCode === C && gif3.loaded()) {
 					image(gif3, 0, 0) } if (keyCode === M && gif4.loaded()) {
