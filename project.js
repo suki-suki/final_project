@@ -40,32 +40,32 @@ function draw() {
 		text("loading...", 300, 350);
 		if (gif.loaded()) { image(gif, 0, 0)};
 		if (keyIsPressed) {
-		  if (keyCode === ALT_B && gif2.loaded()) {
+		  if (keyCode === ALT_A && gif2.loaded()) {
 			image(gif2, 0, 0)} if (keyCode === ALT_B && gif2.playing()) {
 				image(img, 0, 0) } if (keyCode === ALT_C && gif3.loaded()) {
 					image(gif3, 0, 0) } if (keyCode === ALT_M && gif4.loaded()) {
-						image(gif4, 0, 0) } if (keyCode === ALT_B && gif3.loaded()) {
-							image(gif4, 0, 0) } if (keyCode === ALT_B && gif4.loaded()) {
-								image(gif5, 0, 0) } if (keyCode === ALT_B && gif5.loaded()) {
+						image(gif4, 0, 0) } if (keyCode === ALT_D && gif3.loaded()) {
+							image(gif4, 0, 0) } if (keyCode === ALT_E && gif4.loaded()) {
+								image(gif5, 0, 0) } if (keyCode === ALT_F && gif5.loaded()) {
 									image(img2, 0, 0) } if (keyCode === ALT_R && gif6.loaded()) {
 										image(gif6, 0, 0) } if (keyCode === ALT_S && gif7.loaded()) {
-											image(gif7, 0, 0) } if (keyCode === ALT_B && gif6.loaded()) {
-												image(gif8, 0, 0) } if (keyCode === ALT_B && gif7.loaded()) {
-													image(gif8, 0, 0) } if (keyCode === ALT_B && gif8.loaded()) {
-											 image(gif9, 0, 0) } if (keyCode === ALT_B && gif9.loaded()) {
-										image(gif10, 0, 0) } if (keyCode === ALT_B && gif10.loaded()) {
+											image(gif7, 0, 0) } if (keyCode === ALT_G && gif6.loaded()) {
+												image(gif8, 0, 0) } if (keyCode === ALT_H && gif7.loaded()) {
+													image(gif8, 0, 0) } if (keyCode === ALT_I && gif8.loaded()) {
+											 image(gif9, 0, 0) } if (keyCode === ALT_J && gif9.loaded()) {
+										image(gif10, 0, 0) } if (keyCode === ALT_K && gif10.loaded()) {
 							image(img3, 0, 0) } if (keyCode === ALT_E && gif11.loaded()) {
 				image(gif11, 0, 0) } if (keyCode === ALT_G && gif12.loaded()) {
-		image(gif12, 0, 0) } if (keyCode === ALT_B && gif11.loaded()) {
-				  	image(gif12, 0, 0) } if (keyCode === ALT_B && gif12.loaded()) {
-									image(gif13, 0, 0) } if (keyCode === ALT_B && gif13.loaded()) {
-											image(gif14, 0, 0) } if (keyCode === ALT_B && gif14.loaded()) {
-												 image(gif15, 0, 0) } if (keyCode === ALT_B && gif15.loaded()) {
+		image(gif12, 0, 0) } if (keyCode === ALT_L && gif11.loaded()) {
+				  	image(gif12, 0, 0) } if (keyCode === ALT_M && gif12.loaded()) {
+									image(gif13, 0, 0) } if (keyCode === ALT_N && gif13.loaded()) {
+											image(gif14, 0, 0) } if (keyCode === ALT_O && gif14.loaded()) {
+												 image(gif15, 0, 0) } if (keyCode === ALT_P && gif15.loaded()) {
 									  	image(img4, 0, 0) } if (keyCode === ALT_W && gif16.loaded()) {
 							  	image(gif16, 0, 0) } if (keyCode === ALT_T && gif17.loaded()) {
-					  	 image(gif17, 0, 0) } if (keyCode === ALT_B && gif16.loaded()) {
-				  	image(gif18, 0, 0) } if (keyCode === ALT_B && gif17.loaded()) {
-			  image(gif16, 0, 0) } if (keyCode === ALT_B && gif18.loaded()) {
+					  	 image(gif17, 0, 0) } if (keyCode === ALT_Q && gif16.loaded()) {
+				  	image(gif18, 0, 0) } if (keyCode === ALT_U && gif17.loaded()) {
+			  image(gif16, 0, 0) } if (keyCode === ALT_V && gif18.loaded()) {
 		image(img5, 0, 0) } else if (keyCode === ALT_X && gif.loaded()) { image(gif, 0, 0) }
 		}
 	}
