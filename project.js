@@ -40,65 +40,36 @@ function draw() {
 		text("loading...", 300, 350);
 		if (gif.loaded()) { image(gif, 0, 0)};
 		if (keyIsPressed) {
-		  if (keyCode === RIGHT_ARROW && gif2.loaded()) {
-			image(gif2, 0, 0)} if (keyCode === RIGHT_ARROW && gif2.loaded()) {
-				image(img, 0, 0) } if (keyCode === "C" && gif3.loaded()) {
-					image(gif3, 0, 0) } if (keyCode === "M" && gif4.loaded()) {
-						image(gif4, 0, 0) } if (keyCode === RIGHT_ARROW && gif3.loaded()) {
-							image(gif4, 0, 0) } if (keyCode === RIGHT_ARROW && gif4.loaded()) {
-								image(gif5, 0, 0) } if (keyCode === RIGHT_ARROW && gif5.loaded()) {
-									image(img2, 0, 0) } if (keyCode === "R" && gif6.loaded()) {
-										image(gif6, 0, 0) } if (keyCode === "S" && gif7.loaded()) {
-											image(gif7, 0, 0) } if (keyCode === RIGHT_ARROW && gif6.loaded()) {
-												image(gif8, 0, 0) } if (keyCode === RIGHT_ARROW && gif7.loaded()) {
-													image(gif8, 0, 0) } if (keyCode === RIGHT_ARROW && gif8.loaded()) {
-											 image(gif9, 0, 0) } if (keyCode === RIGHT_ARROW && gif9.loaded()) {
-										image(gif10, 0, 0) } if (keyCode === RIGHT_ARROW && gif10.loaded()) {
-							image(img3, 0, 0) } if (keyCode === "E" && gif11.loaded()) {
-				image(gif11, 0, 0) } if (keyCode === "G" && gif12.loaded()) {
-		image(gif12, 0, 0) } if (keyCode === RIGHT_ARROW && gif11.loaded()) {
-				  	image(gif12, 0, 0) } if (keyCode === RIGHT_ARROW && gif12.loaded()) {
-									image(gif13, 0, 0) } if (keyCode === RIGHT_ARROW && gif13.loaded()) {
-											image(gif14, 0, 0) } if (keyCode === RIGHT_ARROW && gif14.loaded()) {
-												 image(gif15, 0, 0) } if (keyCode === RIGHT_ARROW && gif15.loaded()) {
-									  	image(img4, 0, 0) } if (keyCode === "W" && gif16.loaded()) {
-							  	image(gif16, 0, 0) } if (keyCode === "T" && gif17.loaded()) {
-					  	 image(gif17, 0, 0) } if (keyCode === RIGHT_ARROW && gif16.loaded()) {
-				  	image(gif18, 0, 0) } if (keyCode === RIGHT_ARROW && gif17.loaded()) {
-			  image(gif16, 0, 0) } if (keyCode === RIGHT_ARROW && gif18.loaded()) {
-		image(img5, 0, 0) } else if (keyCode === "X" && gif.loaded()) { image(gif, 0, 0) }
+		  if (keyCode === ALT_B && gif2.loaded()) {
+			image(gif2, 0, 0)} if (keyCode === ALT_B && gif2.playing()) {
+				image(img, 0, 0) } if (keyCode === ALT_C && gif3.loaded()) {
+					image(gif3, 0, 0) } if (keyCode === ALT_M && gif4.loaded()) {
+						image(gif4, 0, 0) } if (keyCode === ALT_B && gif3.loaded()) {
+							image(gif4, 0, 0) } if (keyCode === ALT_B && gif4.loaded()) {
+								image(gif5, 0, 0) } if (keyCode === ALT_B && gif5.loaded()) {
+									image(img2, 0, 0) } if (keyCode === ALT_R && gif6.loaded()) {
+										image(gif6, 0, 0) } if (keyCode === ALT_S && gif7.loaded()) {
+											image(gif7, 0, 0) } if (keyCode === ALT_B && gif6.loaded()) {
+												image(gif8, 0, 0) } if (keyCode === ALT_B && gif7.loaded()) {
+													image(gif8, 0, 0) } if (keyCode === ALT_B && gif8.loaded()) {
+											 image(gif9, 0, 0) } if (keyCode === ALT_B && gif9.loaded()) {
+										image(gif10, 0, 0) } if (keyCode === ALT_B && gif10.loaded()) {
+							image(img3, 0, 0) } if (keyCode === ALT_E && gif11.loaded()) {
+				image(gif11, 0, 0) } if (keyCode === ALT_G && gif12.loaded()) {
+		image(gif12, 0, 0) } if (keyCode === ALT_B && gif11.loaded()) {
+				  	image(gif12, 0, 0) } if (keyCode === ALT_B && gif12.loaded()) {
+									image(gif13, 0, 0) } if (keyCode === ALT_B && gif13.loaded()) {
+											image(gif14, 0, 0) } if (keyCode === ALT_B && gif14.loaded()) {
+												 image(gif15, 0, 0) } if (keyCode === ALT_B && gif15.loaded()) {
+									  	image(img4, 0, 0) } if (keyCode === ALT_W && gif16.loaded()) {
+							  	image(gif16, 0, 0) } if (keyCode === ALT_T && gif17.loaded()) {
+					  	 image(gif17, 0, 0) } if (keyCode === ALT_B && gif16.loaded()) {
+				  	image(gif18, 0, 0) } if (keyCode === ALT_B && gif17.loaded()) {
+			  image(gif16, 0, 0) } if (keyCode === ALT_B && gif18.loaded()) {
+		image(img5, 0, 0) } else if (keyCode === ALT_X && gif.loaded()) { image(gif, 0, 0) }
 		}
 	}
 
-// function keyPressed() {
-//   if (keyCode === B && gif.playing()) {
-// 	image(gif2, 0, 0)} else if (keyCode === B && gif2.playing()) {
-// 		image(img, 0, 0) } else if (keyCode === C && gif3.loaded()) {
-// 			image(gif3, 0, 0) } else if (keyCode === M && gif4.loaded()) {
-// 				image(gif4, 0, 0) } else if (keyCode === B && gif3.playing()) {
-// 					image(gif4, 0, 0) } else if (keyCode === B && gif4.playing()) {
-// 						image(gif5, 0, 0) } else if (keyCode === B && gif5.playing()) {
-// 							image(img2, 0, 0) } else if (keyCode === R && gif6.loaded()) {
-// 								image(gif6, 0, 0) } else if (keyCode === S && gif7.loaded()) {
-// 									image(gif7, 0, 0) } else if (keyCode === B && gif6.playing()) {
-// 										image(gif8, 0, 0) } else if (keyCode === B && gif7.playing()) {
-// 											image(gif8, 0, 0) } else if (keyCode === B && gif8.playing()) {
-// 									 image(gif9, 0, 0) } else if (keyCode === B && gif9.playing()) {
-// 								image(gif10, 0, 0) } else if (keyCode === B && gif10.playing()) {
-// 					image(img3, 0, 0) } else if (keyCode === E && gif11.loaded()) {
-// 		image(gif11, 0, 0) } else if (keyCode === G && gif12.loaded()) {
-// image(gif12, 0, 0) } else if (keyCode === B && gif11.playing()) {
-// 		  	image(gif12, 0, 0) } else if (keyCode === B && gif12.playing()) {
-// 							image(gif13, 0, 0) } else if (keyCode === B && gif13.playing()) {
-// 									image(gif14, 0, 0) } else if (keyCode === B && gif14.playing()) {
-// 										 image(gif15, 0, 0) } else if (keyCode === B && gif15.playing()) {
-// 							  	image(img4, 0, 0) } else if (keyCode === W && gif16.loaded()) {
-// 					  	image(gif16, 0, 0) } else if (keyCode === T && gif17.loaded()) {
-// 			  	 image(gif17, 0, 0) } else if (keyCode === B && gif16.playing()) {
-// 		  	image(gif18, 0, 0) } else if (keyCode === B && gif17.playing()) {
-// 	  image(gif16, 0, 0) } else if (keyCode === B && gif18.playing()) {
-// image(img5, 0, 0) } else if (keyCode === X && gif.loaded()) { image(gif, 0, 0) }
-// }
 
 // function keyPressed() {
 // 	if (keyCode === B && gif.loaded()) {
